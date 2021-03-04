@@ -1,0 +1,9 @@
+{
+  "title": "StepZen Blog Template",
+  "headerTitle": "ZenBlog",
+  "description": "A blog built with Next.js, Tailwind.css and StepZen.",
+  "language": "en-us",
+  "siteUrl": "https://tailwind-nextjs-starter-blog.vercel.app",
+  "siteRepo": "https://github.com/timlrx/tailwind-nextjs-starter-blog",
+  "socialBanner": "/static/images/twitter-card.png"
+}
