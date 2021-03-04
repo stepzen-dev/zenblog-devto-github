@@ -4,6 +4,10 @@ The blog combines data coming from [DEV](https://dev.to) and GitHub into a singl
 
 Here are the steps to use this as your own:
 
-1. Fork the related [StepZen API configuration](https://github.com/remotesynth/StepZen-DEV-GitHub-API) files. In the config, place your username and a GitHub personal access token for accessing the GitHub API. Deploy this to StepZen and grab the API URL.
+1. Copy and deploy the API using StepZen:
+    ```bash
+    stepzen import devto-github
+    stepzen start api/zenblog
+    ```
 2. Within the site files, create a `.env.local` file with a `STEPZEN_API_KEY` value containing your StepZen API key and a `STEPZEN_API_URL` for the API above that you deployed.
 3. Run the site. You should see your blog posts from DEV and your GitHub profile info.
